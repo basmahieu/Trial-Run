@@ -20,20 +20,32 @@ h1 {
 
 h2 {
   font-size: 0.8em;
+
+  font-weight: 400;
   color: #333333;
 }
 
 .date {
   font-size: 0.8em;
+  letter-spacing: 0.05em;
 }
+
+/* Start Card */
 
 .card {
   width: 490px;
   height: 258px;
-  margin: 50px;
+  margin: auto;
   border: 1px solid #e5e5e5;
   display: flex;
   align-items: stretch;
+
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .card-body {
@@ -47,4 +59,12 @@ h2 {
   margin-top: 50px;
   display: flex;
   align-items: center;
+}
+
+.card-footer-middle {
+  margin-left: 10px;
+}
+
+.card-footer-right {
+  margin-left: 55px;
 }
