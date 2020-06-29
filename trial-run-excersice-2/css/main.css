@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+h2 {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.users-number {
+  font-size: 54px;
+  font-weight: 300;
+  padding-top: 8px;
+  padding-bottom: 20px;
+}
+
+hr {
+  border: 1px solid #68a1f3;
+}
+/* Card UI */
+
+.ui-card {
+  background-color: #468df0;
+  color: white;
+  width: 296px;
+  height: 492px;
+  margin: 50px;
+  padding: 24px;
+}

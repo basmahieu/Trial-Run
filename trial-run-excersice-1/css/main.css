@@ -48,7 +48,6 @@ img {
 .column {
   flex: 20%;
   padding: 20px;
-  border: 1px solid black;
   margin: 10px 10px;
   max-width: 320px;
 }
@@ -56,10 +55,6 @@ img {
 /* bigger screens */
 
 @media (min-width: 1024px) {
-  body {
-    background-color: #e9e9f0;
-  }
-
   h1 {
     font-size: 4em;
     margin-top: 60px;
