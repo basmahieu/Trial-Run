@@ -19,10 +19,12 @@ h2 {
 }
 .title-left {
   float: left;
+  margin-bottom: 5px;
 }
 
 .title-right {
   float: right;
+  margin-bottom: 5px;
 }
 
 .users-number {
@@ -65,10 +67,16 @@ table {
 th,
 td {
   padding: 4px;
-  border-bottom: 1px solid #68a1f3;
+  border-top: 1px solid #68a1f3;
   font-weight: 400;
 }
 
 .table-right {
+  text-align: right;
+}
+
+/* bottom */
+
+.bottom {
   text-align: right;
 }
